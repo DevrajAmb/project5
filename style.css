@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    font-family: "Afacad Flux", sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 75vw;
+    height: 100vh;
+}
+
+.content1{
+    width: 100%;
+    height: 65%;
+    background-color: #feccb4;
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 5vw;
+}
+
+.box1{
+    width: 50vw;
+    height: 100%;
+}
+
+
+.box1 h1{
+    font-size: 70px;
+    color: #373737;
+}
+
+.btn1{
+    padding-top: 25px;
+}
+
+.btn1 button{
+width: 350px;
+display: flex;
+padding-block: 20px;
+border: none;
+background-color: transparent;
+border-bottom: 1px solid gray;
+font-size: 25px;
+color: gray;
+}
+
+
+
+.btn1{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.item2 p{
+    font-size: 25px;
+}
+
+.item2 button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 15px;
+    gap: 10px;
+    color: black;
+    border-radius: 10px;
+    background-color: #95e3de;
+    box-shadow: 5px 5px;
+    margin-top: 20px;
+    padding-inline: 20px;
+    padding-block: 5px;
+}
+
+
+
+.text p{
+    font-size: 15px;
+    font-weight: 600;
+    padding-block: 10px;
+}
+
+
+.content2{
+    width: 100%;
+    height: 35%;
+    background-color: #373737;
+    display: flex;
+}
+
+
+.box2{
+    padding-top: 4%;
+    height: 100%;
+    padding-left: 5vw;
+}
+
+.item3{
+    width: 40%;
+}
+
+.item3 p{
+    color: #e3e3e3;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+.item4{
+    width: 60%;
+}
+
+.list{
+    display: flex;
+    gap: 100px;
+}
+
+.list ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list ul li{
+    font-size: 20px;
+    list-style: none;
+    color: #e3e3e3;
+}
+
+.btn2{
+    width: 320px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding-inline: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #373737;
+}
+
+.btn3{
+    border: 1px solid black;
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #373737;
+    background-color: #95e3de;
+}
